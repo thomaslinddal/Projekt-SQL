@@ -1,4 +1,35 @@
 {
 	"folders": {},
-	"connections": {}
+	"connections": {
+		"sqlite_jdbc-193b5d9bb68-7ab7e4dd179c0804": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "tourdefrance",
+			"save-password": true,
+			"configuration": {
+				"database": "/Users/thomaslinddal/git/tourdefrance",
+				"url": "jdbc:sqlite:/Users/thomaslinddal/git/tourdefrance",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
 }
