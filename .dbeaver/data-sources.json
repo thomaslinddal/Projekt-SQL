@@ -14,6 +14,28 @@
 				"closeIdleConnection": true,
 				"auth-model": "native"
 			}
+		},
+		"mysql8-193b62c7e02-f02641a7b18cf78": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "MySQL",
+				"url": "jdbc:mysql://localhost:3306/MySQL",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
+					"allowPublicKeyRetrieval": "TRUE"
+				},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
